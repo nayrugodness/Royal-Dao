@@ -1,4 +1,5 @@
-import { useAddress, useMetamask } from '@thirdweb-dev/react';
+import { useAddress, useMetamask, useEditionDrop } from '@thirdweb-dev/react';
+import { useState, useEffect } from 'react';
 
 const App = () => {
   // Use the hooks thirdweb give us.
