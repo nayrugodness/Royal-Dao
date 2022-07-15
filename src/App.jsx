@@ -1,4 +1,4 @@
-import { useAddress, useMetamask, useEditionDrop, useToken, useVote } from '@thirdweb-dev/react';
+import { useAddress, useMetamask, useEditionDrop, useToken, useVote , useNetwork } from '@thirdweb-dev/react';
 import { ChainId } from '@thirdweb-dev/sdk';
 import { useState, useEffect, useMemo } from 'react';
 import { AddressZero } from "@ethersproject/constants";
