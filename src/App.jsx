@@ -4,10 +4,11 @@ import { useState, useEffect, useMemo } from 'react';
 import { AddressZero } from "@ethersproject/constants";
 
 const App = () => {
-  // Use the hooks thirdweb give us.
-  const address = useAddress();
-  const connectWithMetamask = useMetamask();
-  console.log("👋 Address:", address);
+   // Use the hooks thirdweb give us.
+   const address = useAddress();
+   const network = useNetwork();
+   const connectWithMetamask = useMetamask();
+   console.log("👋 Address:", address);
 
   // Initialize our editionDrop contract
   const editionDrop = useEditionDrop("0x6BF3E193B7297a3eB7E79dDc2e693875c81A1895");
