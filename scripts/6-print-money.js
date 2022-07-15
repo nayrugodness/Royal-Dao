@@ -1,3 +1,4 @@
+import { AddressZero } from "@ethersproject/constants";
 import sdk from "./1-initialize-sdk.js";
 
 // This is the address of our ERC-20 contract printed out in the step before.
@@ -6,7 +7,7 @@ const token = sdk.getToken("0x6BF3E193B7297a3eB7E79dDc2e693875c81A1895");
 (async () => {
   try {
     // What's the max supply you want to set? 1,000,000 is a nice number!
-    const amount = 1_000_000;
+    const amount = 1000000;
     // Interact with your deployed ERC-20 contract and mint the tokens!
     await token.mintToSelf(amount);
     const totalSupply = await token.totalSupply();
