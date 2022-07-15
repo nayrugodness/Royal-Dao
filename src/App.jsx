@@ -10,7 +10,10 @@ const App = () => {
   // Initialize our editionDrop contract
   const editionDrop = useEditionDrop("0x6BF3E193B7297a3eB7E79dDc2e693875c81A1895");
   // Initialize our token contract
-  const token = useToken("0x00698669FEBE414AA56eb1dD18793Ce9F3a6A06D")
+  const token = useToken("0x00698669FEBE414AA56eb1dD18793Ce9F3a6A06D");
+
+  const vote = useVote("INSERT_VOTE_ADDRESS");
+  
   // State variable for us to know if user has our NFT.
   const [hasClaimedNFT, setHasClaimedNFT] = useState(false);
   // isClaiming lets us easily keep a loading state while the NFT is minting.
