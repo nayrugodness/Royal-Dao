@@ -9,7 +9,7 @@ const editionDrop = sdk.getEditionDrop("INSERT_EDITION_DROP_ADDRESS");
       {
         name: "Ballet show",
         description: "This NFT will give you access to RoyalDAO!",
-        image: readFileSync("scripts/assets/crown.jpeg"),
+        image: readFileSync("scripts/assets/crown.jpg"),
       },
     ]);
     console.log("✅ Successfully created a new NFT in the drop!");
