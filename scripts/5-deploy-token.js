@@ -8,7 +8,7 @@ import sdk from "./1-initialize-sdk.js";
       // What's your token's name? Ex. "Ethereum"
       name: "Royal Opera DAO Governance Token",
       // What's your token's symbol? Ex. "ETH"
-      symbol: "Phantom",
+      symbol: "RDAO",
       // This will be in case we want to sell our token,
       // because we don't, we set it to AddressZero again.
       primary_sale_recipient: AddressZero,
