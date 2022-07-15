@@ -5,7 +5,7 @@ import { ethers } from "ethers";
 const vote = sdk.getVote("0x00698669FEBE414AA56eb1dD18793Ce9F3a6A06D");
 
 // This is our ERC-20 contract.
-const token = sdk.getToken("INSERT_TOKEN_ADDRESS");
+const token = sdk.getToken("0x8f14E4123367d18F18f4A2CcB587Fc4daB9e27D");
 
 (async () => {
   try {
