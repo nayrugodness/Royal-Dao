@@ -12,7 +12,7 @@ const token = sdk.getToken("0x6BF3E193B7297a3eB7E79dDc2e693875c81A1895");
     const totalSupply = await token.totalSupply();
 
     // Print out how many of our token's are out there now!
-    console.log("✅ There now is", totalSupply.displayValue, "$HOKAGE in circulation");
+    console.log("✅ There now is", totalSupply.displayValue, "$RDAO in circulation");
   } catch (error) {
     console.error("Failed to print money", error);
   }
