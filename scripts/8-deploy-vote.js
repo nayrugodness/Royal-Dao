@@ -7,7 +7,7 @@ import sdk from "./1-initialize-sdk.js";
       name: "My amazing DAO",
 
       // This is the location of our governance token, our ERC-20 contract!
-      voting_token_address: "INSERT_TOKEN_ADDRESS",
+      voting_token_address: "0x00698669FEBE414AA56eb1dD18793Ce9F3a6A06D",
 
       // These parameters are specified in number of blocks. 
       // Assuming block time of around 13.14 seconds (for Ethereum)
