@@ -8,7 +8,7 @@ const App = () => {
   console.log("👋 Address:", address);
 
   // Initialize our editionDrop contract
-  const editionDrop = useEditionDrop("INSERT_EDITION_DROP_ADDRESS");
+  const editionDrop = useEditionDrop("0x6BF3E193B7297a3eB7E79dDc2e693875c81A1895");
   // State variable for us to know if user has our NFT.
   const [hasClaimedNFT, setHasClaimedNFT] = useState(false);
 
@@ -42,7 +42,7 @@ const App = () => {
   if (!address) {
     return (
       <div className="landing">
-        <h1>Welcome to NarutoDAO</h1>
+        <h1>Welcome to Royal Opera DAO</h1>
         <button onClick={connectWithMetamask} className="btn-hero">
           Connect your wallet
         </button>
